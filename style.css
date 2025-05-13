@@ -37,9 +37,9 @@ h2 {
   font-size: 64px;
 }
 p {
-  font-weight: normal;
+  font-weight: regular;
   font-size: 10px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .hero {
@@ -49,8 +49,8 @@ p {
 }
 
 .hero p {
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: normal;
   margin: 0;
   color: #272142;
 }
@@ -83,13 +83,13 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 40px;
 }
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
-    line-height: 2;
+    font-size: 62px;
+    line-height: 1.5;
   }
 
   h2 {
