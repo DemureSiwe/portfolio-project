@@ -38,7 +38,7 @@ h2 {
 }
 p {
   font-weight: regular;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -81,6 +81,11 @@ p {
   line-height: 1.5;
 }
 
+h4 {
+  font-size: 43px;
+  font-family: var(--heading-font-family);
+}
+
 .content p {
   font-size: 14px;
 }
@@ -110,7 +115,7 @@ p {
 }
 
 .project-description {
-  padding: 80px 40px;
+  padding: 120px 60px;
 }
 
 .logo {
@@ -143,6 +148,20 @@ nav li:active a {
   color: var(--main-btn);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .cta-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .cta-box p {
+  margin: 0;
+}
+
 footer .email-link {
   text-decoration: none;
   color: #000;
@@ -153,6 +172,21 @@ footer .email-link:hover {
   color: var(--main-btn);
 }
 
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--main-btn);
+  background-color: var(--secondary-color);
+  padding: 10px 12px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--main-btn);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 62px;
@@ -161,6 +195,10 @@ footer .email-link:hover {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 
   .hero {
